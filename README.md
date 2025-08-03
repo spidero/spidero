@@ -19,6 +19,10 @@ Specialized in building scalable infrastructure using:
 
 ---
 
+## 📄 Projects
+
+- [📁 CV – My professional résumé in LaTeX](https://github.com/spidero/cv)  
+
 ## 📊 GitHub Stats (only public repos)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=spidero&show_icons=true&theme=gruvbox)  
