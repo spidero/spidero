@@ -21,7 +21,7 @@ Specialized in building scalable infrastructure using:
 
 ## 📄 Projects
 
-- [📁 CV – My professional résumé in LaTeX](https://github.com/spidero/cv)  
+- [📁 CV – My (semi)professional résumé](https://github.com/spidero/cv)  
 
 ## 📊 GitHub Stats (only public repos)
 
