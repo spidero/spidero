@@ -27,7 +27,7 @@ Specialized in building scalable infrastructure using:
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=spidero&show_icons=true&theme=gruvbox)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=spidero&layout=compact&theme=gruvbox)
-
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
 ---
 
 ## 📬 Get in Touch
