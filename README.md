@@ -10,10 +10,10 @@
 I'm a DevOps professional with years of experience leading platform engineering and cloud transformation projects.  
 Specialized in building scalable infrastructure using:
 
-- ☁️ **Cloud**: Azure, AWS, GCP  
-- 🐧 **Linux**: Automation, hardening, scripting  
+- ☁️ **Cloud**: Azure, GCP  
+- 🐧 **Linux**: Automation, hardening, scripting, ansiblie  
 - 📦 **Containers**: Docker, Kubernetes, Helm  
-- 🔧 **CI/CD**: GitHub Actions, GitLab CI, Jenkins  
+- 🔧 **CI/CD**: GitHub Actions, GitLab CI, Jenkins, Azure Devops
 - 📊 **Monitoring**: Grafana, Prometheus, Zabbix, ELK  
 - 🛡️ **Security**: Secrets management, Key Vaults, backups
 
