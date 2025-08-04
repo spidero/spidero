@@ -1,7 +1,7 @@
 # Hi there, I'm Piotr Skwarna 👋
 
 🎯 DevOps Team Leader | Cloud & Linux Expert | System Architect  
-🚀 Passionate about automation, observability, and building sustainable tech solutions
+🚀 Passionate about automation, containerization, observability, and building sustainable tech solutions
 
 ---
 
@@ -12,9 +12,17 @@ Specialized in building scalable infrastructure using:
 
 - ☁️ **Cloud**: Azure, GCP  
 - 🐧 **Linux**: Automation, hardening, scripting, ansiblie  
-- 📦 **Containers**: Docker, Kubernetes, Helm  
-- 🔧 **CI/CD**: GitHub Actions, GitLab CI, Jenkins, Azure Devops
-- 📊 **Monitoring**: Grafana, Prometheus, Zabbix, ELK  
+- 📦 **Containers & Orchestration**:  
+  - Docker, Docker Compose  
+  - Kubernetes (k8s), Helm, Kustomize
+- 🔄 **CI/CD Pipelines**:  
+  - GitHub Actions, GitLab CI, Jenkins, Azure Pipelines  
+  - Infrastructure as Code: Terraform, Ansible  
+  - GitOps and progressive delivery  
+- 📊 **Monitoring & Observability**:  
+  - Grafana, Prometheus,
+  - Zabbix, Nagios, ELK Stack  
+  - OpenTelemetry
 - 🛡️ **Security**: Secrets management, Key Vaults, backups
 
 ---
