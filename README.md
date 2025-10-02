@@ -11,7 +11,9 @@ I'm a DevOps professional with years of experience leading platform engineering 
 Specialized in building scalable infrastructure using:
 
 - ☁️ **Cloud**: Azure, GCP  
-- 🐧 **Linux**: Automation, hardening, scripting, ansiblie  
+- 🐧 **Linux**: Automation, hardening, scripting, ansiblie
+- :arrows_counterclockwise: HA
+  - nginx, haproxy, keepalived
 - 📦 **Containers & Orchestration**:  
   - Docker, Docker Compose  
   - Kubernetes (k8s), Helm, Kustomize
