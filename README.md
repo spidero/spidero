@@ -1,6 +1,6 @@
 # Hi there, I'm Piotr Skwarna 👋
 
-🎯 DevOps Team Leader | Cloud & Linux Expert | System Architect  
+🎯 DevOps Team Leader | Linux Expert | Cloud enthusiast| System Architect  
 🚀 Passionate about automation, containerization, observability, and building sustainable tech solutions
 
 ---
@@ -10,13 +10,13 @@
 I'm a DevOps professional with years of experience leading platform engineering and cloud transformation projects.  
 Specialized in building scalable infrastructure using:
 
-- ☁️ **Cloud**: Azure, GCP  
 - 🐧 **Linux**: Automation, hardening, scripting, ansiblie
 - :arrows_counterclockwise: HA
   - nginx, haproxy, keepalived
 - 📦 **Containers & Orchestration**:  
   - Docker, Docker Compose  
   - Kubernetes (k8s), Helm, Kustomize
+- ☁️ **Cloud**: Azure, GCP  
 - 🔄 **CI/CD Pipelines**:  
   - GitHub Actions, GitLab CI, Jenkins, Azure Pipelines  
   - Infrastructure as Code: Terraform, Ansible  
