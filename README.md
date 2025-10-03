@@ -1,6 +1,6 @@
 # Hi there, I'm Piotr Skwarna 👋
 
-🎯 DevOps Team Leader | Linux Expert | Cloud enthusiast| System Architect  
+🎯 DevOps Team Leader | Linux Expert | Cloud enthusiast | System Architect  
 🚀 Passionate about automation, containerization, observability, and building sustainable tech solutions
 
 ---
