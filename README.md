@@ -10,7 +10,7 @@
 I'm a DevOps professional with years of experience leading platform engineering and cloud transformation projects.  
 Specialized in building scalable infrastructure using:
 
-- 🐧 **Linux**: Automation, hardening, scripting, ansiblie
+- 🐧 **Linux**: Automation, hardening, scripting, ansible
 - :arrows_counterclockwise: HA
   - nginx, haproxy, keepalived
 - 📦 **Containers & Orchestration**:  
