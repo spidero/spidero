@@ -5,27 +5,29 @@
 
 ---
 
-## 💼 About Me
+##  About Me
 
 I'm a DevOps professional with years of experience leading platform engineering and cloud transformation projects.  
 Specialized in building scalable infrastructure using:
 
-- 🐧 **Linux**: Automation, hardening, scripting, ansible
-- :arrows_counterclockwise: HA
+-  **Linux**: Automation, hardening, scripting, ansible
+-  HA
   - nginx, haproxy, keepalived
-- 📦 **Containers & Orchestration**:  
+-  Cache
+  - varnish, redis
+-  **Containers & Orchestration**:  
   - Docker, Docker Compose  
   - Kubernetes (k8s), Helm, Kustomize
-- ☁️ **Cloud**: Azure, GCP  
-- 🔄 **CI/CD Pipelines**:  
+-  **Cloud**: Azure, GCP  
+-  **CI/CD Pipelines**:  
   - GitHub Actions, GitLab CI, Jenkins, Azure Pipelines  
   - Infrastructure as Code: Terraform, Ansible  
   - GitOps and progressive delivery  
-- 📊 **Monitoring & Observability**:  
+-  **Monitoring & Observability**:  
   - Grafana, Prometheus,
   - Zabbix, Nagios, ELK Stack  
   - OpenTelemetry
-- 🛡️ **Security**: Secrets management, Key Vaults, backups
+-  **Security**: Secrets management, Key Vaults, backups
 
 ---
 
