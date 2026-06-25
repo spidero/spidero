@@ -11,9 +11,9 @@ I'm a DevOps professional with years of experience leading platform engineering 
 Specialized in building scalable infrastructure using:
 
 -  **Linux**: Automation, hardening, scripting, ansible
--  HA
+-  HA:
   - nginx, haproxy, keepalived
--  Cache
+-  Cache:
   - varnish, redis
 -  **Containers & Orchestration**:  
   - Docker, Docker Compose  
