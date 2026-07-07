@@ -1,7 +1,7 @@
-# Hi there, I'm Piotr Skwarna 👋
+# Hi there, I'm Piotr Skwarna 
 
-🎯 DevOps Team Leader | Linux Expert | Cloud enthusiast | System Architect  
-🚀 Passionate about automation, containerization, observability, and building sustainable tech solutions
+DevOps Team Leader | Linux Expert | Cloud enthusiast | System Architect  
+Passionate about automation, containerization, observability, and building sustainable tech solutions
 
 ---
 
@@ -25,18 +25,18 @@ Specialized in building scalable infrastructure using:
 
 ## 📄 Projects
 
-- [📁 CV – My (semi)professional résumé](https://github.com/spidero/cv)  
+- [CV – My (semi)professional résumé](https://github.com/spidero/cv)  
 
-## 📊 GitHub Stats (only public repos)
+##  GitHub Stats (only public repos)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=spidero&show_icons=true&theme=gruvbox)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=spidero&layout=compact&theme=gruvbox)
 ---
 
-## 📬 Get in Touch
+## Get in Touch
 
-- 🌐 [LinkedIn – Piotr Skwarna](https://www.linkedin.com/in/piotrskwarna/)
-- 🔧 [GitHub – @spidero](https://github.com/spidero)
+- [LinkedIn – Piotr Skwarna](https://www.linkedin.com/in/piotrskwarna/)
+- [GitHub – @spidero](https://github.com/spidero)
 
 ---
 
