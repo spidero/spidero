@@ -23,7 +23,7 @@ Specialized in building scalable infrastructure using:
 
 ---
 
-## 📄 Projects
+## Projects
 
 - [CV – My (semi)professional résumé](https://github.com/spidero/cv)  
 
