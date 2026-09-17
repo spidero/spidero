@@ -29,7 +29,9 @@ Specialized in building scalable infrastructure using:
 
 ##  GitHub Stats (only public repos)
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=spidero&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=spidero&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+</p>
 ---
 
 ## Get in Touch
