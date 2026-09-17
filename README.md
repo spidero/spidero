@@ -27,7 +27,7 @@ Specialized in building scalable infrastructure using:
 
 - [CV – My (semi)professional résumé](https://github.com/spidero/cv)  
 
-##  GitHub Stats (only public repos)
+##  GitHub Stats Snake (https://github.com/platane/snk)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake-dark.svg">
