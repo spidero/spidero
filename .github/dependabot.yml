@@ -1,0 +1,7 @@
+# Keep GitHub Actions versions up to date (e.g. Node runtime deprecations)
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

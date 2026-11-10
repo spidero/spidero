@@ -33,6 +33,8 @@ Specialized in building scalable infrastructure using:
 <img alt="GitHub stats" src="https://raw.githubusercontent.com/spidero/spidero/output/github-stats.svg#gh-light-mode-only">
 <img alt="Most used languages" src="https://raw.githubusercontent.com/spidero/spidero/output/github-languages-dark.svg#gh-dark-mode-only">
 <img alt="Most used languages" src="https://raw.githubusercontent.com/spidero/spidero/output/github-languages.svg#gh-light-mode-only">
+<img alt="Contribution streak" src="https://raw.githubusercontent.com/spidero/spidero/output/github-streak-dark.svg#gh-dark-mode-only">
+<img alt="Contribution streak" src="https://raw.githubusercontent.com/spidero/spidero/output/github-streak.svg#gh-light-mode-only">
 
 ##  GitHub Stats Snake (https://github.com/platane/snk)
 

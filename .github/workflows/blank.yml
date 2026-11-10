@@ -31,14 +31,14 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 2. Generuje karty statystyk GitHub (stats + języki, jasne i ciemne) do dist/
+      # 2. Generuje karty statystyk GitHub (stats, języki, streak; jasne i ciemne) do dist/
       #    Akcja: https://github.com/spidero/github-stats-card
       - name: Generate stats cards
         uses: spidero/github-stats-card@v1
         with:
           github_user_name: spidero
           output_dir: dist
-          cards: stats,languages
+          cards: stats,languages,streak
           # Języki także z prywatnych repo (tylko nazwy i %, bez nazw repo)
           include_private: "true"
           # Personal token so private repos are counted too
