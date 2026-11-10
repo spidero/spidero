@@ -22,10 +22,6 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 0. Pobiera repo (skrypt statystyk); musi być przed generowaniem do dist/
-      - name: Checkout
-        uses: actions/checkout@v7
-
       # 1. Generuje animację węża w formacie SVG (wersja jasna i ciemna)
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
@@ -35,12 +31,15 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 2. Generuje własną kartę statystyk GitHub (jasna i ciemna) do dist/
+      # 2. Generuje kartę statystyk GitHub (jasna i ciemna) do dist/
+      #    Akcja: https://github.com/spidero/github-stats-card
       - name: Generate github-stats.svg
-        run: python3 .github/scripts/github_stats.py spidero dist
-        env:
-          # Personal read-only token so private repos are counted too
-          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+        uses: spidero/github-stats-card@v1
+        with:
+          github_user_name: spidero
+          output_dir: dist
+          # Personal token so private repos are counted too
+          token: ${{ secrets.STATS_TOKEN }}
 
       # 3. Wrzuca wygenerowane pliki na osobną gałąź o nazwie "output"
       - name: Push github-contribution-grid-snake.svg to the output branch
@@ -49,5 +48,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          # Personal read-only token so private repos are counted too
-          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
