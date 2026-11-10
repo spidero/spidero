@@ -27,6 +27,7 @@ query($login: String!, $from: DateTime!, $cursor: String) {
     thisYear: contributionsCollection(from: $from) { totalCommitContributions }
     lastYear: contributionsCollection {
       contributionCalendar { totalContributions }
+      restrictedContributionsCount
     }
     repositories(
       first: 100, after: $cursor, ownerAffiliations: OWNER,
@@ -95,13 +96,15 @@ def fetch_stats(token, login):
         "contributed": user["repositoriesContributedTo"]["totalCount"],
         "followers": user["followers"]["totalCount"],
         "contributions": user["lastYear"]["contributionCalendar"]["totalContributions"],
+        # Private contributions are only exposed as one total (not split by type)
+        "private": user["lastYear"]["restrictedContributionsCount"],
     }
 
 
 def human(n):
-    for div, suffix in ((1_000_000, "M"), (1_000, "k")):
+    for div, suffix in ((1_000_000, "M"), (10_000, "k")):
         if n >= div:
-            return f"{n / div:.1f}".rstrip("0").rstrip(".") + suffix
+            return f"{n / (div if div != 10_000 else 1_000):.1f}".rstrip("0").rstrip(".") + suffix
     return str(n)
 
 
@@ -110,6 +113,7 @@ def render(s, theme):
     rows = [
         ("Total stars", s["stars"]),
         (f"Commits ({s['year']})", s["commits"]),
+        ("Private contributions (last year)", s["private"]),
         ("Pull requests", s["prs"]),
         ("Issues", s["issues"]),
         ("Contributed to (last year)", s["contributed"]),
@@ -123,14 +127,14 @@ def render(s, theme):
             f'<g class="row" style="animation-delay:{150 + i * 120}ms">'
             f'<rect x="25" y="{y - 9}" width="8" height="8" rx="2" fill="{c["accent"]}"/>'
             f'<text x="43" y="{y}" class="label">{escape(label)}:</text>'
-            f'<text x="235" y="{y}" class="value">{human(value)}</text></g>'
+            f'<text x="265" y="{y}" class="value">{human(value)}</text></g>'
         )
     # Ring: decorative full circle with yearly contributions in the middle
-    cx, cy, r = 400, 112, 50
+    cx, cy, r = 410, 122, 50
     circ = 2 * 3.14159 * r
     title = escape(f"{s['name']}'s GitHub Stats")
     updated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" viewBox="0 0 495 210" role="img" aria-label="{title}">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="232" viewBox="0 0 495 232" role="img" aria-label="{title}">
 <title>{title}</title>
 <style>
   .title {{ font: 600 18px {font}; fill: {c["title"]}; }}
@@ -143,7 +147,7 @@ def render(s, theme):
   @keyframes fade {{ to {{ opacity: 1; }} }}
   @keyframes draw {{ to {{ stroke-dashoffset: 0; }} }}
 </style>
-<rect x="0.5" y="0.5" width="494" height="209" rx="6" fill="{c["bg"]}" stroke="{c["border"]}"/>
+<rect x="0.5" y="0.5" width="494" height="231" rx="6" fill="{c["bg"]}" stroke="{c["border"]}"/>
 <text x="25" y="35" class="title">{title}</text>
 {''.join(lines)}
 <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{c["track"]}" stroke-width="8"/>
@@ -151,7 +155,7 @@ def render(s, theme):
 <text x="{cx}" y="{cy + 4}" text-anchor="middle" class="big">{s["contributions"] if s["contributions"] < 10000 else human(s["contributions"])}</text>
 <text x="{cx}" y="{cy + 20}" text-anchor="middle" class="small">contributions</text>
 <text x="{cx}" y="{cy + 32}" text-anchor="middle" class="small">last year</text>
-<text x="470" y="200" text-anchor="end" class="small">updated {updated}</text>
+<text x="470" y="220" text-anchor="end" class="small">updated {updated}</text>
 </svg>
 """
 
