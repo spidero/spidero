@@ -24,7 +24,7 @@ jobs:
     steps:
       # 0. Pobiera repo (skrypt statystyk); musi być przed generowaniem do dist/
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # 1. Generuje animację węża w formacie SVG (wersja jasna i ciemna)
       - name: Generate github-contribution-grid-snake.svg
@@ -43,7 +43,7 @@ jobs:
 
       # 3. Wrzuca wygenerowane pliki na osobną gałąź o nazwie "output"
       - name: Push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
