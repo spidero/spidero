@@ -29,19 +29,14 @@ Specialized in building scalable infrastructure using:
 
 ##  GitHub Stats
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spidero/spidero/output/github-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/spidero/spidero/output/github-stats.svg">
-  <img alt="GitHub stats" src="https://raw.githubusercontent.com/spidero/spidero/output/github-stats.svg">
-</picture>
+<img alt="GitHub stats" src="https://raw.githubusercontent.com/spidero/spidero/output/github-stats-dark.svg#gh-dark-mode-only">
+<img alt="GitHub stats" src="https://raw.githubusercontent.com/spidero/spidero/output/github-stats.svg#gh-light-mode-only">
 
 ##  GitHub Stats Snake (https://github.com/platane/snk)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake.svg">
-</picture>
+<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only">
+<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake.svg#gh-light-mode-only">
+
 ---
 
 ## Get in Touch
