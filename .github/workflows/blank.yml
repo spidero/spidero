@@ -39,7 +39,8 @@ jobs:
       - name: Generate github-stats.svg
         run: python3 .github/scripts/github_stats.py spidero dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Personal read-only token so private repos are counted too
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
 
       # 3. Wrzuca wygenerowane pliki na osobną gałąź o nazwie "output"
       - name: Push github-contribution-grid-snake.svg to the output branch
@@ -48,4 +49,5 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Personal read-only token so private repos are counted too
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
