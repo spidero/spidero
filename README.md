@@ -27,19 +27,29 @@ Specialized in building scalable infrastructure using:
 
 - [CV – My (semi)professional résumé](https://github.com/spidero/cv)  
 
-##  GitHub Stats
+## GitHub Stats
 
-<img alt="GitHub stats" src="https://raw.githubusercontent.com/spidero/spidero/output/github-stats-dark.svg#gh-dark-mode-only">
-<img alt="GitHub stats" src="https://raw.githubusercontent.com/spidero/spidero/output/github-stats.svg#gh-light-mode-only">
-<img alt="Most used languages" src="https://raw.githubusercontent.com/spidero/spidero/output/github-languages-dark.svg#gh-dark-mode-only">
-<img alt="Most used languages" src="https://raw.githubusercontent.com/spidero/spidero/output/github-languages.svg#gh-light-mode-only">
-<img alt="Contribution streak" src="https://raw.githubusercontent.com/spidero/spidero/output/github-streak-dark.svg#gh-dark-mode-only">
-<img alt="Contribution streak" src="https://raw.githubusercontent.com/spidero/spidero/output/github-streak.svg#gh-light-mode-only">
+<p align="center">
+  <img alt="GitHub stats" src="https://raw.githubusercontent.com/spidero/spidero/output/github-stats-dark.svg#gh-dark-mode-only" width="49%">
+  <img alt="GitHub stats" src="https://raw.githubusercontent.com/spidero/spidero/output/github-stats.svg#gh-light-mode-only" width="49%">
+  <img alt="Most used languages" src="https://raw.githubusercontent.com/spidero/spidero/output/github-languages-dark.svg#gh-dark-mode-only" width="49%">
+  <img alt="Most used languages" src="https://raw.githubusercontent.com/spidero/spidero/output/github-languages.svg#gh-light-mode-only" width="49%">
+</p>
+<p align="center">
+  <img alt="Contribution streak" src="https://raw.githubusercontent.com/spidero/spidero/output/github-streak-dark.svg#gh-dark-mode-only" width="49%">
+  <img alt="Contribution streak" src="https://raw.githubusercontent.com/spidero/spidero/output/github-streak.svg#gh-light-mode-only" width="49%">
+</p>
 
-##  GitHub Stats Snake (https://github.com/platane/snk)
+<p align="center"><sub>Cards generated daily by <a href="https://github.com/spidero/github-stats-card">github-stats-card</a>, my own self-hosted GitHub Action.</sub></p>
 
-<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only">
-<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake.svg#gh-light-mode-only">
+## Contribution Snake
+
+<p align="center">
+  <img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only">
+  <img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake.svg#gh-light-mode-only">
+</p>
+
+<p align="center"><sub>Animation by <a href="https://github.com/Platane/snk">Platane/snk</a></sub></p>
 
 ---
 
