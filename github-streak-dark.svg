@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="215" viewBox="0 0 495 215" role="img" aria-label="Piotr Skwarna's Streak">
+<title>Piotr Skwarna's Streak</title>
+<style>
+  .title { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #58a6ff; }
+  .label { font: 600 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; }
+  .value { font: 700 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #e6edf3; }
+  .big { font: 700 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #e6edf3; }
+  .small { font: 400 10px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; }
+  .credit { opacity: .55; }
+  /* Visible by default; the animation only fades in from 0 (no-animation renderers show the final state) */
+  .fade { animation: fade .5s ease-in-out backwards; }
+  @keyframes fade { from { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+</style>
+<rect x="0.5" y="0.5" width="494" height="214" rx="6" fill="#0d1117" stroke="#30363d"/>
+<text x="25" y="35" class="title">Piotr Skwarna's Streak</text>
+<g class="fade" style="animation-delay:150ms"><text x="85" y="98" text-anchor="middle" class="big">1869</text><text x="85" y="150" text-anchor="middle" class="label">Total contributions</text><text x="85" y="168" text-anchor="middle" class="small">Jul 5, 2012 - Present</text></g><g class="fade" style="animation-delay:400ms"><text x="410" y="98" text-anchor="middle" class="big">26 days</text><text x="410" y="150" text-anchor="middle" class="label">Longest streak</text><text x="410" y="168" text-anchor="middle" class="small">Oct 19, 2026 - Nov 13, 2026</text></g><line x1="166" y1="60" x2="166" y2="175" stroke="#30363d"/><line x1="328" y1="60" x2="328" y2="175" stroke="#30363d"/><style>
+  .ring247x94 { stroke-dasharray: 226.2; stroke-dashoffset: 0.0; animation: ring247x94 1.2s ease-out backwards; }
+  @keyframes ring247x94 { from { stroke-dashoffset: 226.2; } }
+</style>
+<circle cx="247" cy="94" r="36" fill="none" stroke="#1c2a3d" stroke-width="6"/>
+<circle class="ring247x94" cx="247" cy="94" r="36" fill="none" stroke="#58a6ff" stroke-width="6" stroke-linecap="round" transform="rotate(-90 247 94)"/>
+<text x="247" y="102" text-anchor="middle" class="big">26</text>
+<g class="fade" style="animation-delay:250ms"><text x="247" y="150" text-anchor="middle" class="label" style="fill:#58a6ff">Current streak</text><text x="247" y="168" text-anchor="middle" class="small">Oct 19, 2026 - Nov 13, 2026</text></g>
+<text x="470" y="203" text-anchor="end" class="small">updated 2026-11-14</text><a href="https://github.com/spidero/github-stats-card" target="_blank"><text x="25" y="203" class="small credit">spidero/github-stats-card</text></a>
+</svg>

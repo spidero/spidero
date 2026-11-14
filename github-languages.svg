@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="228" viewBox="0 0 495 228" role="img" aria-label="Most Used Languages">
+<title>Most Used Languages</title>
+<style>
+  .title { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #0969da; }
+  .label { font: 600 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #57606a; }
+  .value { font: 700 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #1f2328; }
+  .big { font: 700 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #1f2328; }
+  .small { font: 400 10px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #57606a; }
+  .credit { opacity: .55; }
+  /* Visible by default; the animation only fades in from 0 (no-animation renderers show the final state) */
+  .fade { animation: fade .5s ease-in-out backwards; }
+  @keyframes fade { from { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+</style>
+<rect x="0.5" y="0.5" width="494" height="227" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+<text x="25" y="35" class="title">Most Used Languages</text>
+<clipPath id="bar2555"><rect x="25" y="55" width="445" height="10" rx="5.0"/></clipPath><g clip-path="url(#bar2555)"><rect x="25" y="55" width="445" height="10" fill="#d8e6f8"/><rect x="25.0" y="55" width="333.5" height="10" fill="#4F5D95"/><rect x="360.5" y="55" width="28.1" height="10" fill="#f0c040"/><rect x="390.6" y="55" width="18.1" height="10" fill="#3572A5"/><rect x="410.8" y="55" width="14.9" height="10" fill="#663399"/><rect x="427.6" y="55" width="10.1" height="10" fill="#89e051"/><rect x="439.7" y="55" width="5.6" height="10" fill="#f1e05a"/><rect x="447.3" y="55" width="4.1" height="10" fill="#f7523f"/><rect x="453.4" y="55" width="4.0" height="10" fill="#3178c6"/><rect x="459.3" y="55" width="8.7" height="10" fill="#d8e6f8"/></g><g class="fade" style="animation-delay:150ms"><circle cx="30" cy="88" r="5" fill="#4F5D95"/><text x="42" y="92" class="label">PHP</text><text x="230" y="92" text-anchor="end" class="value">75.4%</text></g><g class="fade" style="animation-delay:250ms"><circle cx="260" cy="88" r="5" fill="#f0c040"/><text x="272" y="92" class="label">Smarty</text><text x="460" y="92" text-anchor="end" class="value">6.8%</text></g><g class="fade" style="animation-delay:350ms"><circle cx="30" cy="112" r="5" fill="#3572A5"/><text x="42" y="116" class="label">Python</text><text x="230" y="116" text-anchor="end" class="value">4.5%</text></g><g class="fade" style="animation-delay:450ms"><circle cx="260" cy="112" r="5" fill="#663399"/><text x="272" y="116" class="label">CSS</text><text x="460" y="116" text-anchor="end" class="value">3.8%</text></g><g class="fade" style="animation-delay:550ms"><circle cx="30" cy="136" r="5" fill="#89e051"/><text x="42" y="140" class="label">Shell</text><text x="230" y="140" text-anchor="end" class="value">2.7%</text></g><g class="fade" style="animation-delay:650ms"><circle cx="260" cy="136" r="5" fill="#f1e05a"/><text x="272" y="140" class="label">JavaScript</text><text x="460" y="140" text-anchor="end" class="value">1.7%</text></g><g class="fade" style="animation-delay:750ms"><circle cx="30" cy="160" r="5" fill="#f7523f"/><text x="42" y="164" class="label">Blade</text><text x="230" y="164" text-anchor="end" class="value">1.4%</text></g><g class="fade" style="animation-delay:850ms"><circle cx="260" cy="160" r="5" fill="#3178c6"/><text x="272" y="164" class="label">TypeScript</text><text x="460" y="164" text-anchor="end" class="value">1.3%</text></g><g class="fade" style="animation-delay:950ms"><circle cx="30" cy="184" r="5" fill="#d8e6f8"/><text x="42" y="188" class="label">Other</text><text x="230" y="188" text-anchor="end" class="value">2.4%</text></g>
+<text x="470" y="216" text-anchor="end" class="small">updated 2026-11-14</text><a href="https://github.com/spidero/github-stats-card" target="_blank"><text x="25" y="216" class="small credit">spidero/github-stats-card</text></a>
+</svg>
