@@ -25,7 +25,13 @@ Specialized in building scalable infrastructure using:
 
 ## Projects
 
-- [CV – My (semi)professional résumé](https://github.com/spidero/cv)  
+- [**OBDruid**](https://github.com/spidero/obdruid) – open-source OBD-II workshop tool in Python: live data, trouble codes, vehicle health check; CLI, web UI and desktop app, released packages for Windows and Linux
+- [**php-virt-manager**](https://github.com/spidero/php-virt-manager) – web panel for libvirt/KVM: VM management, live charts, snapshots, noVNC console, cloud-init images, roles, REST API
+- [**Profile Stats Cards**](https://github.com/spidero/github-stats-card) – self-hosted GitHub Action on the [Marketplace](https://github.com/marketplace/actions/profile-stats-cards) that generates the cards below; tests, releases, zero dependencies
+- [**ssl-audit**](https://github.com/spidero/ssl-audit) – self-hosted HTTPS/TLS audit similar to SSL Labs: TLS versions, certificates, HSTS, OCSP stapling, ALPN, CAA
+- [**docker**](https://github.com/spidero/docker) – Dockerfile and Compose examples, from hello world to HA PostgreSQL (Patroni) and RabbitMQ clusters
+
+**CV:** [skwarna.eu](https://skwarna.eu) – or run it as a container: [spidero/cv](https://github.com/spidero/cv)
 
 ## GitHub Stats
 
@@ -42,21 +48,12 @@ Specialized in building scalable infrastructure using:
 
 <p align="center"><sub>Cards generated daily by <a href="https://github.com/spidero/github-stats-card">github-stats-card</a>, my own self-hosted GitHub Action.</sub></p>
 
-## Contribution Snake
-
-<p align="center">
-  <img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only">
-  <img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/spidero/spidero/output/github-contribution-grid-snake.svg#gh-light-mode-only">
-</p>
-
-<p align="center"><sub>Animation by <a href="https://github.com/Platane/snk">Platane/snk</a></sub></p>
-
 ---
 
 ## Get in Touch
 
+- Website & CV: [skwarna.eu](https://skwarna.eu)
 - [LinkedIn – Piotr Skwarna](https://www.linkedin.com/in/piotrskwarna/)
-- [GitHub – @spidero](https://github.com/spidero)
 
 ---
 

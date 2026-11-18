@@ -1,18 +1,17 @@
-name: Generate Snake
+name: Generate stats cards
 
 on:
   # Uruchom automatycznie co 24 godziny
   schedule:
     - cron: "0 0 * * *"
-  
+
   # Pozwala na ręczne uruchomienie z zakładki "Actions"
   workflow_dispatch:
-    
+
   # Uruchom również przy każdym commicie w gałęzi głównej
   push:
     branches:
       - main
-      - master
 
 jobs:
   generate:
@@ -22,16 +21,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 1. Generuje animację węża w formacie SVG (wersja jasna i ciemna)
-      - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: spidero
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # 2. Generuje karty statystyk GitHub (stats, języki, streak; jasne i ciemne) do dist/
+      # 1. Generuje karty statystyk GitHub (stats, języki, streak; jasne i ciemne) do dist/
       #    Akcja: https://github.com/spidero/github-stats-card
       - name: Generate stats cards
         uses: spidero/github-stats-card@v1
@@ -44,8 +34,8 @@ jobs:
           # Personal token so private repos are counted too
           token: ${{ secrets.STATS_TOKEN }}
 
-      # 3. Wrzuca wygenerowane pliki na osobną gałąź o nazwie "output"
-      - name: Push github-contribution-grid-snake.svg to the output branch
+      # 2. Wrzuca wygenerowane pliki na gałąź "output" (zastępuje całą jej zawartość)
+      - name: Push cards to the output branch
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
