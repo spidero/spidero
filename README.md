@@ -15,7 +15,7 @@ Specialized in building scalable infrastructure using:
 -  **Cache**: varnish, redis
 -  **Containers & Orchestration**:  Docker, Docker Compose, Kubernetes (k8s), Helm, Kustomize, Podman
 -  **Cloud**: Azure, GCP  
--  **CI/CD Pipelines**:   GitHub Actions, GitLab CI, Jenkins, Azure Pipelines
+-  **CI/CD Pipelines**:   GitHub Actions, GitLab CI, Jenkins, Azure Deveops Pipelines
 -  **Infrastructure as Code**: Terraform, Ansible
 -  **GitOps**
 -  **Monitoring & Observability**:  Grafana, Prometheus, Zabbix, Nagios, ELK Stack, OpenTelemetry
